@@ -31,6 +31,6 @@ spec:
     spec:
       containers:
       - name: train-schedule
-        image: 650143975734.dkr.ecr.eu-west-1.amazonaws.com/blessed:$IMAGETAG-$BUILD_ID
+        image: 650143975734.dkr.ecr.eu-west-1.amazonaws.com/application:$IMAGETAG-$BUILD_ID
         ports:
         - containerPort: 80
