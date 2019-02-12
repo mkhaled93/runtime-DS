@@ -1,2 +1,2 @@
-FROM httpd:alpine
-COPY eicar.com.txt /usr/local/apache2/htdocs/
+FROM httpd:latest
+COPY index.html /usr/local/apache2/htdocs/
